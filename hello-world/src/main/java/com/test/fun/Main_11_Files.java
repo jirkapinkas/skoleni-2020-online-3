@@ -11,6 +11,9 @@ public class Main_11_Files {
         try(Stream<String> lines = Files.lines(Path.of("pom.xml"))) {
             lines.forEach(System.out::println);
         }
+        try(var lines = Files.lines(Path.of("pom.xml"))) {
+            lines.forEach(System.out::println);
+        }
     }
 
 }
