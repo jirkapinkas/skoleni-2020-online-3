@@ -8,6 +8,7 @@ public class Main_12_StringDeduplication {
         String s3 = "test";
         String s4 = new String("test");
 
+        // POZOR! NEPOUZIVAT!!! MISTO TOHO POUZIVAT equals!!!
         System.out.println(s1 == s2); // false
         System.out.println(s1 == s3); // true
     }
